@@ -2,11 +2,11 @@ type: choice
 is_multiple_choice: true
 options:
 - text: The code <b>Month.values()</b> returns an array of all declared constants
-- text: The code <b>Month.valueOf("JUN")</b> returns <b>JUN</b>.
-- text: <b>Month aug = Month.AUG;</b> The variable <b>aug</b> has a primitive type.
 - text: The code <b>Month.JAN.getNumber()</b> returns 0
+- text: <b>Month aug = Month.AUG;</b> The variable <b>aug</b> has a primitive type.
 - text: <b>Month dec1 = Month.DEC; Month dec2 = Month.DEC;</b> The statement <b>dec1
     == dec2</b> always returns <b>true</b>.
+- text: The code <b>Month.valueOf("JUN")</b> returns <b>JUN</b>.
 files:
 - name: src/Task.java
   visible: true
